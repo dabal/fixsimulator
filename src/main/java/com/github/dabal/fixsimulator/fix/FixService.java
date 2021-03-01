@@ -47,5 +47,6 @@ public class FixService extends MessageCracker implements Application {
     public void fromApp(Message message, SessionID sessionId) throws FieldNotFound, IncorrectDataFormat, IncorrectTagValue, UnsupportedMessageType {
         log.info(String.format("%s - %s - %s", sessionId.toString(), "fromApp", message.toRawString()));
 
+
     }
 }

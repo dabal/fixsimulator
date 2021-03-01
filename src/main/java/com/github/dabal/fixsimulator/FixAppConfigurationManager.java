@@ -11,6 +11,11 @@ public class FixAppConfigurationManager {
 
     public FixAppConfigurationManager() {
         fixConfiguration="[default]\n" +
+
+        "SocketReuseAddress=Y\n"+
+            "ResetOnLogon=Y\n"+
+        "ResetOnLogout=Y\n"+
+        "ResetOnDisconnect=Y\n"+
                 "FileStorePath=/tmp/\n" +
                 "CheckLatency=N\n" +
                 "FileLogPath=/tmp/\n" +
